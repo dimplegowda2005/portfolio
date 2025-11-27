@@ -35,6 +35,3 @@ Hosted using GitHub Pages:
 Click the **Download Resume** button on the homepage to download the PDF.
 
 
-###  Author
-**Dimple L**
-
