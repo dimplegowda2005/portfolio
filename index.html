@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="home-section">
+    <h1>Hello, I'm <span class="highlight">Dimple L</span></h1>
+    <p>Computer Science Engineering Student</p>
+
+    <button id="downloadResume" class="resume-btn">
+        Download Resume
+    </button>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science Engineering student with strong fundamentals in programming, data
+        structures, and problem-solving. Passionate about developing efficient solutions and continuously
+        expanding technical skills. Able to work well in teams, learn quickly, and take ownership of tasks.
+        Seeking opportunities to apply academic knowledge to real-world projects.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-box"><h4>Programming Languages</h4><br>• C<br>• Python (basic)<br>• Java (basic)</div>
+    <div class="skill-box"><h4>Web Technologies</h4><br>• HTML<br>• CSS<br>• JavaScript (basic)</div>
+    <div class="skill-box"><h4>Databases</h4><br>• MySQL<br>• DBMS concepts<br>• SQL Queries</div>
+    <div class="skill-box"><h4>Developer Tools</h4><br>• MS Excel<br>• Power BI</div>
+    <div class="skill-box"><h4>Core CS Skills</h4><br>• DSA<br>• OS (basic)</div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Automatic Pet Feeder (IoT)</h3>
+        <p>Built an IoT-based pet feeder using NodeMCU with scheduled and remote food dispensing,
+        incorporating motor control for accurate portioning.</p>
+    </div>
+
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>Created a responsive portfolio using HTML, CSS, and JS.</p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="education-card">
+        <h3>B.E. in Computer Science and Engineering</h3>
+        <p>Malnad College Of Engineering | 2023-present</p>
+    </div>
+
+    <div class="education-card">
+        <h3>Class 12</h3>
+        <p>Brigade PU College | 2022-23</p>
+    </div>
+
+    <div class="education-card">
+        <h3>Class 10</h3>
+        <p>G T World Academy | 2020-21</p>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+
+    <div class="cert-card">
+        <h3>Social Networks - NPTEL</h3>
+        <p>IIT Ropar</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <textarea id="message" placeholder="Enter your message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="response"></p>
+</section>
+
+<footer>
+    © 2025 My Portfolio | Created for Web Programming Activity
+</footer>
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
