@@ -29,7 +29,7 @@ portfolio/
 3. The website will run locally without any server
 
 ##  Live Demo
-Hosted using GitHub Pages:  
+Hosted using GitHub Pages: https://dimplegowda2005.github.io/portfolio/  
 
 ##  Resume Download
 Click the **Download Resume** button on the homepage to download the PDF.
